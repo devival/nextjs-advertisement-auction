@@ -174,7 +174,7 @@ export default function Auction() {
                         <div>
                             <br></br>
                             Do not close the window until the transaction is complete. <br></br>
-                            Otherwise you won't be able to place an ad.
+                            Otherwise you will not be able to place an ad.
                         </div>
                         <div>
                             <br></br>Current bid: {ethers.utils.formatUnits(lastBid, "ether")} ETH
